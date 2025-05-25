@@ -3,7 +3,7 @@ function App() {
   return (
     <>
       <Ab/>
-      <h1>A New Project</h1>
+      <h1>A New Project | vite </h1>
     </>
     
   )
