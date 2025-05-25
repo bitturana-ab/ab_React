@@ -8,6 +8,7 @@ function App() {
     console.log("value added",Math.random());
     counter++;
   }
+  
   return (
     <>
     <h1>A new vite project</h1>
