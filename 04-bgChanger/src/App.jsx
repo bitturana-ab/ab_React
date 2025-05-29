@@ -12,20 +12,20 @@ function App() {
     style={{backgroundColor:color}}
     >
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-        <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl">
-          <button className="outile-none px-4 py-1 rounded-full "
+        <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl shadow-lg">
+          <button className="outile-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"red"}}
           >Red</button>
-          <button className="outile-none px-4 py-1 rounded-full "
-          style={{backgroundColor:"blue",color:"yellow"}}
+          <button className="outile-none text-white px-4 py-1 rounded-full shadow-lg"
+          style={{backgroundColor:"blue"}}
           >Blue</button>
-          <button className="outile-none px-4 py-1 rounded-full "
-          style={{backgroundColor:"green",color:"white"}}
+          <button className="outile-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor:"green"}}
           >Green</button>
-          <button className="outile-none px-4 py-1 rounded-full "
+          <button className="outile-none px-4 py-1 rounded-full shadow-lg"
           style={{backgroundColor:"yellow"}}
           >Yellow</button>
-          <button className="outile-none px-4 py-1 rounded-full "
+          <button className="outile-none px-4 py-1 rounded-full shadow-lg"
           style={{backgroundColor:"pink"}}
           >Pink</button>
         </div>
