@@ -28,7 +28,7 @@ function App() {
     // useRef hook for password reference
     const passwordRef = useRef(null)
     const copyTOclipboard =()=>{
-      passwordRef.current.select()
+      passwordRef.current?.select();
       window.navigator.clipboard.writeText(password)
     }
 
