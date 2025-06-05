@@ -10,7 +10,7 @@ function App() {
 
   return (
     <UserContextProvider >
-      <h1>Start of Context hooks</h1>
+      <h1 className="bg-gray-50 dark:bg-gray-900 p-7 rounded-xl m-2">A context project</h1>
       <Login/>
       <Profile/>
     </UserContextProvider>
