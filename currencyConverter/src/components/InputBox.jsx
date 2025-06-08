@@ -9,12 +9,13 @@ function InputBox({
     selectCurrency = "usd",
     amountDisable = false,
     currencyDisable = false,
-    clasName = "",
+
+    className = "",
 }) {
   const amountInputId = useId;
   return (
     
-    <div className={`bg-white p-3 rounded-lg text-sm flex ${clasName}`}>
+    <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
         <div className='w-1/2'>
         <label htmlFor={amountInputId} className='text-black/80 text-md font-sans mb-2 inline-block'>{label}</label>
         <input 
@@ -32,12 +33,12 @@ function InputBox({
             <select 
             className='rounded-lg px-2 py-2 bg-gray-500 cursor-pointer outline-none'
             value={selectCurrency}
-            onChange={(e) => onCurrencyChange && onCurrencyChange(Number(e.target.validationMessage))}
+            onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
             disabled ={currencyDisable}
             >
-                {currencyOptions.map((currencyType)=>(
-                  <option value={currencyType} key={currencyType}>
-                    {currencyType}
+                {currencyOptions.map((currency)=>(
+                  <option value={currency} key={currency}>
+                    {currency}
                   </option>
                 ))}
             </select>
