@@ -33,6 +33,11 @@ export default function Footer() {
                                         Contact
                                     </Link>
                                 </li>
+                                <li className="mt-4">
+                                    <Link to="/github" className="hover:underline hover:text-orange-600">
+                                        Github
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         <div>
