@@ -5,7 +5,7 @@ export default function About() {
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
-                        <img
+                        <img className="rounded-lg"
                             src="https://images.pexels.com/photos/301977/pexels-photo-301977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="image"
                         />
