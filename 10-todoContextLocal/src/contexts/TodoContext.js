@@ -1,11 +1,11 @@
-import { createContext, useContext } from "react";
+import React, { createContext, useContext } from "react";
 
 export const TodoContext = createContext({
   todos: [
     {
       id: 1,
       todo: "To do message",
-      completed: true,
+      completed: false,
     },
   ],
   addTodo: (todo) => {},
@@ -18,5 +18,5 @@ export const TodoProvider = TodoContext.Provider;
 
 // manual method of hook using useContext
 export const useTodo = () => {
-  useContext(TodoContext);
+  return useContext(TodoContext);
 };
